@@ -1,0 +1,71 @@
+<html>
+<head>
+<style>
+	::placeholder{
+		color:black;
+	}
+	*{
+		box-size:border-box;
+	}
+	body{
+		font-family:helvetica, arial, sans-serif;
+		background-image: url("https://i.picsum.photos/id/1031/5446/3063.jpg?hmac=Zg0Vd3Bb7byzpvy-vv-fCffBW9EDp1coIbBFdEjeQWE");
+    background-position: center;
+		margin-top:100px;
+	}
+	.form_control{
+		border-radius:50px;
+		font-family: "Times New Roman", Times, serif;
+		font-size:15px;
+		border:none;
+		background-image:linear-gradient(pink,grey);
+		padding:10px 50px;
+		padding-left:5px;
+		margin:auto;
+		display:block;
+		margin-bottom:20px;
+	}
+	h1{
+		border-radius:50px;
+		border:none;
+		font-family: "Times New Roman", Times, serif;
+		color:Blue;
+		text-align:center;
+		margin-bottom:50px;
+    margin-top: 10px;
+	}
+	.form_box{
+		font-family: "Times New Roman", Times, serif;
+		border-radius:50px;
+		margin:auto;
+    margin-top:3px;
+		width:500px;
+		padding:30px;
+    background-image: radial-gradient(orange,white);
+		display:block;
+	}
+	.btn_control{
+		font-family: "Times New Roman", Times, serif;
+		border-radius:10px;
+		border:none;
+		background-color:yellow;
+		color:black;
+		margin-left:200px;
+		margin-bottom:1px;
+		padding:10px;
+	}
+</style>
+</head>
+<body>
+		<h1>User registration</h1>
+	<form class="form_box" action="task1_a.html" method="_self">
+		<input class="form_control" type="text" placeholder="First Name">
+		<input class="form_control" type="text" placeholder="Last Name">
+		<input class="form_control" type="text" placeholder="Contact">
+		<input class="form_control" type="text" placeholder="Email">
+		<input class="form_control" type="password" placeholder="Password">
+		<input class="form_control" type="password" placeholder="Confirm Password">
+		<button class="btn_control" type="submit">Submit</button>
+	</form>
+</body>
+</html>
