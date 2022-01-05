@@ -1,0 +1,18 @@
+Dell@DESKTOP-D22Q3HM MINGW64 /d/Tasks bacancy/HTML and CSS tasks (master)
+$ git reflog
+7788203 (HEAD -> master, origin/sandbox, sandbox) HEAD@{0}: merge sandbox: Fast-forward
+abdae25 (origin/master) HEAD@{1}: checkout: moving from sandbox to master
+7788203 (HEAD -> master, origin/sandbox, sandbox) HEAD@{2}: commit: Sandbox file done.
+abdae25 (origin/master) HEAD@{3}: checkout: moving from master to sandbox
+abdae25 (origin/master) HEAD@{4}: checkout: moving from master to master
+abdae25 (origin/master) HEAD@{5}: commit: Updated
+0bfe15f HEAD@{6}: checkout: moving from neh to master
+cb183b5 (origin/neh) HEAD@{7}: checkout: moving from master to neh
+0bfe15f HEAD@{8}: checkout: moving from neh to master
+cb183b5 (origin/neh) HEAD@{9}: commit: Made changes in practical 5 file
+0bfe15f HEAD@{10}: checkout: moving from master to neh
+0bfe15f HEAD@{11}: commit: practical1 file updated
+86280ae HEAD@{12}: commit (initial): First commit
+
+Dell@DESKTOP-D22Q3HM MINGW64 /d/Tasks bacancy/HTML and CSS tasks (master)
+$
